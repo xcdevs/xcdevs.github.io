@@ -1,52 +1,70 @@
-*
-@font-face {
-   font-family: 'Bebas';
-   src: url(assets/font/Bebas-Regular.ttf);
-{
+* {
    text-decoration: none;
    margin: 0px;
    padding: 0px;
 }
 
+font-face {
+   font-family: 'Bebas';
+   src: url(assets/font/Bebas-Regular.ttf);
+}
+
 body {
-   margin: 0px;
-   padding: 0px;
-   font-family: 'Bebas', sans serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas',sans serif;
 }
 
 .wrapper {
-   width: 1100px;
-   margin: auto;
-   position: relative;
+  width: 1100px;
+  margin: auto;
+  position: relative;
 }
 
-.logo img {
-   width: 50%;
-   float: left;
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: Bebas;
+  color: #000000;
 }
 
 .menu {
-   float: right;
+  float: right;
 }
 
 nav {
-   width: 100%;
-   margin: auto;
-   display: flex;
-   line-height: 80px;
-   position: sticky;
-   position: -webkit-sticky;
-   top: 0;
-   background: #000000;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #CCCCCC;
 }
 
 nav ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
+
+
