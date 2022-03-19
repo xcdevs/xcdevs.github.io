@@ -67,4 +67,22 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bebas';
+  color: #000000;
+}
+
 
