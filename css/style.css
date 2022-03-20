@@ -70,8 +70,12 @@ nav ul li a:hover {
 section {
   margin: auto;
   display: flex;
-  width: 20%;
   margin-bottom: 50px;
+}
+
+.homeimg {
+  width: 30%;
+  float: left;
 }
 
 .kolom {
